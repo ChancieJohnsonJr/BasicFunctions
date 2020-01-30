@@ -1,0 +1,8 @@
+1. Hashmaps are not synchronized and are faster ythan hash tables where as hash tables are synchronized. Hash maps are better for non threaded applications. Hash tables does not allow null keys while hash maps allows one null key and any number of null values.
+2.You should override them so the class can behave properly due to hash based collections are organized in a sequencewhere same hash codes determines where the objects go and where to find them.
+3.They allow classes to defer instantiation to subclasses.  Factory design patterns requires a new operation instead of a new class.
+4.Java garbage collections is how java performs auto memory management. It finds unused objects and removes them.
+5. Same as #1
+6.Sparse arrays are arrays of data in which multiple values equals zero.
+7.Array lists are classes while a list is an interface. An array list inherits List and all its methods and adds new functionality to them.
+8.Comparator is an external type that uses multiple classes while comparables ony have one chance to use the compare to objects. Comparables in objects compares itself with another object.
